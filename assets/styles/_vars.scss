@@ -1,0 +1,56 @@
+/*
+ * brand colors, etc
+*/
+
+
+/*
+ * mixins for media queries
+ using same widths as pure.css
+*/
+
+$sm-width: 568px; // 35.5em;
+$md-width: 768px; // 28em;
+$lg-width: 1024px; // 64em;
+$xl-width: 1280px; // 80em;
+
+@mixin mq-sm {
+  @media (min-width: #{$sm-width}) {
+    @content;
+  }
+}
+
+@mixin mq-md {
+  @media (min-width: #{$md-width}) {
+    @content;
+  }
+}
+
+@mixin mq-lg {
+  @media (min-width: #{$lg-width}) {
+    @content;
+  }
+}
+
+@mixin mq-xl {
+  @media (min-width: #{$xl-width}) {
+    @content;
+  }
+}
+
+@mixin mq-sm-only {
+  @media (min-width: #{$sm-width}) and (max-width: #{$md-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin mq-md-only {
+  @media (min-width: #{$md-width}) and (max-width: #{$lg-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin mq-lg-only {
+  @media (min-width: #{$lg-width}) and (max-width: #{$xl-width - 1px}) {
+    @content;
+  }
+}
