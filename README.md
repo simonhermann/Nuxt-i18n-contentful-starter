@@ -1,6 +1,8 @@
 # Nuxt-i18n-contentful-starter
 
-Using [vue-i18n](https://github.com/kazupon/vue-i18n) and [contentful.com](https://www.contentful.com/) to provide your pages in multiple languages.
+Example project to get startet with Vue/Nuxt and Contentful with multiple locales.
+
+Using [vue-i18n](https://github.com/kazupon/vue-i18n) and fetching content from[contentful.com](https://www.contentful.com/).
 
 
 
