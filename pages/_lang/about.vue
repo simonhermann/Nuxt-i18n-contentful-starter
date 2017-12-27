@@ -18,6 +18,7 @@
 <script>
 import { createClient } from '~/plugins/contentful.js'
 const client = createClient()
+// var blogPosts = ['1', '2']
 
 export default {
   // html meta data for page
