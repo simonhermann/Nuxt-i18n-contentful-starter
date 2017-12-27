@@ -42,6 +42,6 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 
 ## TODO:
 
-- [ ] contentful environments 
+- [ ] contentful environments / set env in netlify
       https://www.contentful.com/developers/docs/concepts/multiple-environments/
       https://github.com/stefanjudis/stefan-judis-website/blob/master/plugins/contentful.js
